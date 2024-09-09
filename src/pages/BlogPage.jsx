@@ -1,7 +1,7 @@
 function BlogPage(){
     return (
         <>
-            <h1>Blog Page</h1>
+            <h1>Blog</h1>
         </>
     )
 }
