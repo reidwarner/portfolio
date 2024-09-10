@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.881276fa.css",
-    "main.js": "/portfolio/static/js/main.e76037f8.js",
+    "main.css": "/portfolio/static/css/main.82700018.css",
+    "main.js": "/portfolio/static/js/main.46103faa.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/profilepic.png": "/portfolio/static/media/profilepic.9b03de1b38faae25c342.png",
+    "static/media/github-logo.png": "/portfolio/static/media/github-logo.4ea0b8e038a85aaa9082.png",
+    "static/media/linkedin-logo.png": "/portfolio/static/media/linkedin-logo.6493844211380b27f558.png",
     "index.html": "/portfolio/index.html",
-    "main.881276fa.css.map": "/portfolio/static/css/main.881276fa.css.map",
-    "main.e76037f8.js.map": "/portfolio/static/js/main.e76037f8.js.map",
+    "main.82700018.css.map": "/portfolio/static/css/main.82700018.css.map",
+    "main.46103faa.js.map": "/portfolio/static/js/main.46103faa.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.881276fa.css",
-    "static/js/main.e76037f8.js"
+    "static/css/main.82700018.css",
+    "static/js/main.46103faa.js"
   ]
 }
