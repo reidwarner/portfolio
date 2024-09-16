@@ -1,11 +1,10 @@
 .App {
   text-align: center;
-  background-color: #282c34;
-  color: black;
+  color: white;
+  background-color:rgb(34, 34, 34);
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,15 +14,12 @@
 }
 
 .app-nav {
-  position: absolute;
-  left: 5px;
-  top: 5px;
+  position: center;
 }
 
 .app-nav a {
   padding: 0px 20px 5px 20px;
-  background-color:#282c34;
-  color:rgb(231, 227, 223);
+  color:white;
   line-height:1;
   vertical-align:middle;
   font-size:1.3em;
@@ -31,11 +27,11 @@
 }
 
 .app-nav a:hover {
-  color:rgb(10, 9, 10);
+  color:black;
 }
 
 .home-page {
-  margin-top: 6%;
+  margin-top: 1%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,16 +39,17 @@
 
 .about-container {
   display: flex;
-  width: 80%;
-  height: 70%;
+  width: auto;
+  height: auto;
   gap: 5%;
   align-items: stretch;
+  padding: 5%;
 }
 
 .personal-container {
   display: flex;
   flex-direction: column;
-  background-color: rgb(171, 244, 87);
+  background-color: rgba(140, 217, 220, .75);
   border: 2px solid white;
   border-radius: 0.5%;
 }
@@ -75,11 +72,15 @@
     border: 2px solid white;
 }
 
+.socials a:hover {
+  opacity: 0.5;
+}
+
 .bio-container {
   display: flex;
   flex-direction: column;
   text-align: left;
-  background-color: rgb(171, 244, 87);
+  background-color: rgba(140, 217, 220, 0.75);
   border: 2px solid white;
   border-radius: 0.5%;
   width: 65%;
@@ -93,3 +94,37 @@
   justify-content: center;
   margin: 2% 2% 2% 2%;
 }
+
+.projects-container {
+  display: grid;
+  row-gap: 5%;
+  grid-template-columns: repeat(1, auto);
+}
+
+.project {
+  border: 2px solid white;
+  background-color: rgba(140, 217, 220, 0.75);
+}
+
+.project h4 {
+  text-decoration: underline;
+}
+
+.gh-logo {
+  height: 35px;
+  width: 35px;
+  border: 2px solid white;
+}
+
+.irs-img {
+  height: 400px;
+  width: 650px;
+  border: 2px solid white;
+}
+
+.atomic-img {
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
+}
+
