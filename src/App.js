@@ -3,20 +3,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import HomePage from './pages/HomePage';
 import ProjectsPage from './pages/ProjectsPage';
-import ContactPage from './pages/ContactPage';
-import BlogPage from './pages/BlogPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header my-6">
         <Router>
             <Navigation/>
             <Routes>
               <Route path='/portfolio/' element={<HomePage/>}></Route>
               <Route path='/projects' element={<ProjectsPage/>}></Route>
-              <Route path='/contact' element={<ContactPage></ContactPage>}></Route>
-              <Route path='/blog' element={<BlogPage></BlogPage>}></Route>
             </Routes>
           </Router>
       </header>
