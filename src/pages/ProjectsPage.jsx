@@ -17,7 +17,7 @@ function ProjectsPage(){
                     </p>
                     <br></br>
                     <img className="object-cover border-4 border-gray-300 mb-6" src={require('../data/images/IRS-img.png')} alt="project preview"/>
-                    <a className="text-xl text-white underline hover:text-gray-400" href='https://indianriversocial.onrender.com/' target='_blank'>Live Site</a><br></br>
+                    <a className="text-xl text-white underline hover:text-gray-400" href='http://34.236.61.171/irs/' target='_blank'>Live Site</a><br></br>
                 </div>
                 <div className="flex flex-col items-center text-center border-4 border-gray-300 mb-6 p-6 rounded-lg bg-gray-800">
                     <div className="flex justify-between">
