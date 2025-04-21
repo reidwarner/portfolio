@@ -41,6 +41,18 @@ function ProjectsPage(){
                     <p className="text-lg text-white leading-relaxed">You are on it right now!</p>
                 <br></br>
                 </div>
+                <div className="flex flex-col items-center text-center border-4 border-gray-300 mb-6 p-6 rounded-lg bg-gray-800">
+                    <div className="flex justify-between">
+                        <h4 className="text-3xl font-semibold text-white mb-4 text-center">Smallsh</h4>
+                        <a className="h-8 w-8 p-1 rounded-full bg-[#171510] hover:bg-blue-500 transition-colors duration-300"  href="https://github.com/reidwarner/smallsh" target="_blank">
+                            <img className="w-6 h-6" src={require("../images/github-logo.png")}/>
+                        </a>
+                    </div>
+                    <p className="text-lg text-white leading-relaxed">A simple shell program written in C.</p>
+                <br></br>
+                <img className="object-cover border-4 border-gray-300 mb-6" src={require('../data/images/smallsh.png')} alt="project preview"/>
+                <br></br>
+                </div>
             </div>
         </div>
     )
