@@ -28,7 +28,7 @@ function ProjectsPage(){
                     </div>
                     <p className="text-lg text-white leading-relaxed">Two player chess variant. Capture your opponents king directly or via an indirect explosion attacks.</p><br></br>
                     <br></br>
-                    <img className="object-cover border-4 border-gray-300 mb-6" src={require('../data/images/Atomic.png')} alt="project preview"/>
+                    <img className="border-4 border-gray-300 mb-6 w-96 h-auto" src={require('../data/images/Atomic.png')} alt="project preview"/>
                     <br></br>
                 </div>
                 <div className="flex flex-col items-center text-center border-4 border-gray-300 mb-6 p-6 rounded-lg bg-gray-800">
