@@ -1,4 +1,3 @@
-import projects from '../data/projects.js';
 
 function ProjectsPage(){
     return (
